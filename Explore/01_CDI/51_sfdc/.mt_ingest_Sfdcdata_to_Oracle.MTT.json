@@ -1,7 +1,31 @@
 {
   "objectInfo" : {
+    "id" : "20zqq1x7b5Qb35VKg1c7Yl",
+    "name" : "mt_ingest_Sfdcdata_to_Oracle",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000N0Z000000000008"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
     "id" : "2gyzaxeAM1jlILhVYPBdYu",
-    "name" : "m_ingest_sfdcProduct_to_Oracle",
+    "name" : "m_ingest_Sfdcdata_to_Oracle",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -20,10 +44,9 @@
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
-    }
-  },
-  "dataFileExtension" : "zip",
-  "objectRefs" : [ {
+    },
+    "path" : "/Explore/01_CDI/51_sfdc"
+  }, {
     "id" : "a1lj5FrYowCk3F3fNyOXcR",
     "name" : "asekine_oracle_hockenheim",
     "type" : "Connection",
@@ -60,6 +83,26 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9w7UoMeGaunjwxioXVOZsY",
+    "name" : "hockenheim",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01000N25000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
