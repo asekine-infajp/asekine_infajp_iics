@@ -75,10 +75,7 @@
       "repoInfo" : {
         "repoHandle" : "0116TC1700000000000B"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
